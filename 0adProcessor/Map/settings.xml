@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="5">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColour r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColour r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>0</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="540.019" y="2603.48" z="-3016.19"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Blank Buildings",
+  "GameType": "conquest",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Blank Buildings",
+  "PlayerData": [
+    {
+      "Civ": "athen",
+      "StartingCamera": {
+        "Position": {
+          "x": 560,
+          "y": 0,
+          "z": 280
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "Civ": "cart",
+      "StartingCamera": {
+        "Position": {
+          "x": 560,
+          "y": 0,
+          "z": 680
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="280" z="310"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="900" z="106.21241"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36744"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="815" z="330"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="400" z="170"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="400" z="480"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="700" z="170"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="700" z="480"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="570" z="325"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="520" z="325"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="450" z="170"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="450" z="480"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="550" z="170"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="550" z="480"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="280" z="710"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="900" z="506.21241"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36744"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="815" z="730"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="400" z="570"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="400" z="880"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="700" z="570"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="700" z="880"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="570" z="725"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="520" z="725"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="450" z="570"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="450" z="880"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="550" z="570"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="550" z="880"/>
+			<Orientation y="1.57"/>
+			<Actor seed="58440"/>
+		</Entity>
+		
