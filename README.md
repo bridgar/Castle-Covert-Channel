@@ -27,5 +27,9 @@ The correctness of Castle transmissions is heavily dependant upon the performanc
 	-First, go into C://0adProcessor/Scripts/SendMove.ahk. On line 35, delete the leading semicolon. Be sure to recompile SendMove.ahk or the changes will not be made. Do this by right clicking SendMove.ahk and clicking compile script. This will uncomment the sleep before every click that the script will execute. It should be noted that out-of-the-box AutoHotkey cannot maintain sleep accuracy below ~20ms (meaning all sleeps below 20ms will last 20ms) but several methods for achieving precise sleep with AutoHotkey exist online.
 	-Second, if your 0ad is still not performant enough, you can attempt to change the map to have fewer buildings in the game. The map with the release version of Castle has 800 buildings per player. The python script used to generate the map file is contained in C://0adProcessor/Map. If you do elect to change the number of buildings in the map, you will have to change some code. In C://0adProcessor/Encoder/encoder.py, change num_buildings on line 142. In the castle source, change num_buildings in stdafx.h
 	
+
+Read the full paper here: http://arxiv.org/abs/1503.05904
+
 For any Castle related help, you can send an email to castle@googlegroups.com
-	
+
+
