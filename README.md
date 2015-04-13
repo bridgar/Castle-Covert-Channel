@@ -1,6 +1,6 @@
-# Castle-Pluggable-Transport
+# Castle-Covert-Channel
 
-CASTLE PLUGGABLE TRANSPORT INSTALLATION GUIDE
+CASTLE COVERT CHANNEL INSTALLATION GUIDE
 -----------------------------------------------------------------
 
 !!WARNING!!
