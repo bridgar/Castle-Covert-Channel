@@ -9,7 +9,7 @@ CASTLE COVERT CHANNEL INSTALLATION GUIDE
 -----------------------------------------------------------------
 
 !!WARNING!!
-Castle currently only works with monitors of at least horizontal resolution 1600.
+This release of Castle currently only works with monitors of at least horizontal resolution 1600.
 
 
 1. Install 0ad, found at http://play0ad.com/download/
