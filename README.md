@@ -1,5 +1,10 @@
 # Castle-Covert-Channel
 
+PLEASE NOTE:  0 A.D. is an open-source game which is still under development. One of the things in their TODO is to implement end-to-end encryption. So until that is done, Castle over 0 A.D. is NOT secure as described in the paper.
+
+However, Castle is secure as described in the paper when it is put to work on top of any other RTS game which does have encryption implemented. Anyone wanting to do this should be able to in a few hours given the code that we released. If 0 A.D. were to implement end-to-end encryption, Castle over 0 A.D. would be secure as claimed in the paper.
+
+
 CASTLE COVERT CHANNEL INSTALLATION GUIDE
 -----------------------------------------------------------------
 
