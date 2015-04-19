@@ -51,4 +51,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="0ad processor.licenseheader" />
+  </ItemGroup>
 </Project>
