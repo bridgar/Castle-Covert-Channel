@@ -10,8 +10,6 @@ import struct
 
 num_buildings = 800
 
-random.seed(0)
-
 #binomial function
 def nCr(n,r):
     f = math.factorial

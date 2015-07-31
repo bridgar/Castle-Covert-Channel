@@ -35,7 +35,7 @@ void FileManager::SendFile(std::wstring fileName)
 	cout << "encoding" << endl;
 	wstring wFile = L"python \"C://0adProcessor/Encoder/encoder.py\" \"0\" \"" + fileName + L"\"";
 	LPWSTR file = (LPWSTR)wFile.c_str();
-	ahk.RunScriptWithParameters(file);
+	//ahk.RunScriptWithParameters(file);
 
 	wstring wencoded_filename = fileName + L"-encoded";
 	std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
